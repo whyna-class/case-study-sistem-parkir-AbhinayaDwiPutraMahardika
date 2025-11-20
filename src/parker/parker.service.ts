@@ -45,7 +45,7 @@ export class ParkerService {
     const skip = (page - 1) * limit;
     const where: any = {}
     if (search) {
-      where.platNomer = {contains: search}
+      where.platNomor = {contains: search}
     }
 
     if (jenisKendaraan) {

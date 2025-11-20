@@ -4,7 +4,7 @@ CREATE TABLE `Parkir` (
     `platNomor` VARCHAR(191) NOT NULL,
     `jenisKendaraan` ENUM('RODA2', 'RODA4') NOT NULL,
     `durasi` INTEGER NOT NULL,
-    `total` INTEGER NOT NULL,
+    `totalTarif` INTEGER NOT NULL,
     `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `updatedAt` DATETIME(3) NOT NULL,
 
