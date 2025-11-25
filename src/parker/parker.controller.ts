@@ -23,7 +23,7 @@ export class ParkerController {
   }
   
   @Get('total')
-  totalPendapatan() {
+  total() {
     return this.parkirService.totalUang();
   }
   
