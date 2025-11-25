@@ -16,5 +16,4 @@ export class CreateParkerDto {
     durasi: number;
 
     totalTarif: number;
-
 }

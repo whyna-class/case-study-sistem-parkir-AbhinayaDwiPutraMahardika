@@ -36,7 +36,7 @@ export class ParkerService {
 
   async findAll(query: FindParkerdto ) {
     const {
-      search = ",",
+      search = "",
       jenisKendaraan,
       page = 1,
       limit = 10,

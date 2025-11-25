@@ -22,7 +22,7 @@ export class ParkerController {
     return this.parkirService.create(createParkirDto);
   }
   
-  @Get('pendapatan')
+  @Get('total')
   totalPendapatan() {
     return this.parkirService.totalUang();
   }
@@ -46,4 +46,5 @@ export class ParkerController {
   remove(@Param('id') id: string) {
     return this.parkirService.remove(+id);
   }
+
 }
